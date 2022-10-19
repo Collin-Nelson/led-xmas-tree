@@ -1,0 +1,11 @@
+The Tree meets the GIFT format from Matt at Stand-up Maths. This defines the coordinate system and the method of storing the pattern data.
++Z is defined as up the trunk, X and Y are horixontal (rotation about Z doesn't need to be defined)
+Take the four points that are furthest in each direction (+/-X, +/-Y). These are defined as +/-1 unit on their respective axes. The center (X=0, Y=0) of the tree is defined as at the center of these four points
+The tree takes a CSV file to define the pattern, with the first column as the frame number, and then repeating triplets of columns that store the RGB vales for each LED in order in the range 0-255
+
+For example, a 3 frame pattern for a tree with 2 LEDS that blinks red, green, blue might look like:
+
+Frame, R_0, G_0, B_0, R_1, G_1, B_1;
+1, 255, 0, 0, 255, 0, 0;
+2, 0, 255, 0, 0, 255, 0;
+3, 0, 0, 255, 0, 0, 255;

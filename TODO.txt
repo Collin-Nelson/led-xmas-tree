@@ -1,0 +1,11 @@
+Last thing done: I finished setting up venv, just started on installing/setting up github (but made no progress yet)
+
+
+- [] Define standards
+- [] Figure out process for mapping LED positions in 2D
+- [] Display patterns on 2D LEDs
+- [] Figure out process for mapping LED positions in 3D
+- [] Display patterns on 3D LEDs
+- [] Figure out how to error correct positions in 3D (if needed?)
+- [] Figure out how to import patterns from CSV format defined in "LED Christmas Tree Standards"
+- [] Write a web interface to run the system (built in timer functionality, predefined list of patterns to run, etc)
