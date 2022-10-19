@@ -1,4 +1,4 @@
-Last thing done: I finished setting up venv, just started on installing/setting up github (but made no progress yet)
+Last thing done: Removed venv and all data from RPi, made repo online, added UN and PW to git on RPi, made ken, still need to add to RPi
 
 
 - [] Define standards
